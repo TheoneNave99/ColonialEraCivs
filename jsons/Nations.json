@@ -22,7 +22,6 @@
 
 		"outerColor": [113, 15, 19],
 		"innerColor": [162, 196, 255],
-		"favoredReligion": "Christianity",
 		"uniqueName": "Industrial Revolution",
 		"uniques": ["[+15]% Strength <for [Water] units>", "Allied City-States provide [Production] equal to [+20]% of what they produce for themselves <in [capital] cities>",
 			    "[+1 Food, +1 Production] from [Coast] tiles [in all cities]", "[+1 Gold, +1 Production] from [Fishing Boats] tiles [in all cities]", "[+2] Movement <for [Embarked] units>"],
@@ -55,7 +54,6 @@
 
 		"outerColor": [66, 100, 174],
 		"innerColor": [242, 244, 183],
-		"favoredReligion": "Christianity",
 
 		"uniqueName": "Ancien Regimee",
 		"uniques": ["[-50]% maintenance costs <for [Land] units>", "Allied City-States provide [Culture] equal to [+100]% of what they produce for themselves <in [capital] cities>",
@@ -91,7 +89,6 @@
 		"tradeRequest": "I believe I have something that may be of some importance to you.",
 		"outerColor": [216, 120, 0],
 		"innerColor": [255, 255, 255],
-		"favoredReligion": "Christianity",
 		"uniqueName": "Dutch East India Company",
 		"uniques": ["Allied City-States provide [Gold] equal to [+50]% of what they produce for themselves <in [capital] cities>",
 			    "[+1 Food, +1 Gold] from [Coast] tiles [in all cities]", "[Great Merchant] is earned [50]% faster"],
@@ -121,7 +118,6 @@
 		
 		"outerColor": [240, 240, 240],
 		"innerColor": [200, 0, 6],
-		"favoredReligion": "Christianity",
 		"uniqueName": "Mission System",
 		"uniques": ["[+2] Movement <for [Water] units>", "[+1 Faith, +1 Production] from [Coast] tiles [in all cities]", "Starts with [Exploration] adopted",
 			    "Allied City-States provide [Faith] equal to [+100]% of what they produce for themselves <in [capital] cities>"],
