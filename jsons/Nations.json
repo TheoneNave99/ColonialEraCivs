@@ -6,6 +6,7 @@
 		"startBias": ["Coast"],
 		"personality": "George III",
 		"preferredVictoryType": "Diplomatic",
+		"favoredReligion": "Protestantism",
 
 		"startIntroPart1": "King George III, sovereign of the British Empire and ruler of the seas, your fleets dominate the waves.",
 		"startIntroPart2": "Will Britannia continue to rule or be cast down from its lofty perch?",
@@ -38,6 +39,7 @@
 		"startBias": ["Wine"],
 		"personality": "Napoleon I",
 		"preferredVictoryType": "Domination",
+		"favoredReligion": "Catholicism",
 
 		"startIntroPart1": "Long life and triumph to you, First Consul and Emperor of France, Napoleon I, ruler of the French people. France lies at the heart of Europe. Long has Paris been the world center of culture, arts and letters. Although surrounded by competitors - and often enemies - France has endured as a great nation. Its armies have marched triumphantly into battle from one end of the world to the other, its soldiers and generals among the best in history.",
 		"startIntroPart2": "Napoleon Bonaparte, France yearns for you to rebuild your empire, to lead her once more to glory and greatness, to make France once more the epicenter of culture and refinement. Emperor, will you ride once more against your foes? Can you build a civilization that will stand the test of time?",
@@ -75,6 +77,7 @@
 		"startBias": ["Grassland"],
 		"preferredVictoryType": "Cultural",
 		"personality": "William of Orange",
+		"favoredReligion": "Protestantism",
 
         "startIntroPart1": "Greetings to the wise and brave Prince William of Orange, who freed the Netherlands and gave strength to the Dutch people. In 1568, you led a rebellion against Spanish dominion, to gain freedom for your people, and therefore starting the Eighty Years' War. Your actions were all aimed to create one of Europe's first modern republics, the Seven United Provinces. The rebellion was the meaning of your very life and death, as it was also the cause of your assassination in 1584. But your death has given even more pride and courage to your people, to fight for liberty against any oppressors. Carved in history as the 'Father of the Fatherland', your name is a symbol of Dutch independence for eternity.",
         "startIntroPart2": "Brave Prince, your people ask for your wisdom to gain its freedom once more, and to illuminate the world with progressive and modern ideas. Will your new empire shine through the ages of history?",
@@ -102,6 +105,7 @@
 		"startBias": ["Coast"],
 		"personality": "Ferdinand VII",
 		"preferredVictoryType": "Cultural",
+	        "favoredReligion": "Catholicism",
 
 		"startIntroPart1": "Ferdinand VII, once a captive, now restored to the throne, Spain watches as you reclaim its soul from revolution.",
 		"startIntroPart2": "Will you crush liberalism and restore divine order to your kingdom?",
@@ -127,12 +131,14 @@
 			"Jaén","Palma","Badajoz","Tarragona","Gijón","Ciudad Real","Guadalajara","Cáceres","Lugo","Segovia","Teruel","Vigo","Elche","Jerez"],
 		"spyNames": ["Téllez-Girón","Alba","de Borbón","Fadrique de Toledo","Vasco Núñez de Balboa","Carlos V","Enrique de Guzmán","Juan de Austria","Ponce de León","Cervantes"]
 		
-	}
-	{
+}
+{
         "name": "Portuguese Empire",
         "leaderName": "Maria I",
         "adjective": ["Portuguese"],
         "startBias": ["Coast"],
+	"favoredReligion": "Catholicism",
+	
         "startIntroPart1": "Blessings be upon you, most gracious Queen Maria, protector and sovereign of the Portuguese people. As the first ever Queen regnant of Portugal, it was your wise stewardship that protected the royal court from the incursions of Napoleon, establishing a safe haven in Brazil to preserve the integrity of Portuguese rule. Despite struggling with illness throughout your reign, your effort to ensure Portugal's close cooperation with Brazil are credited with helping that state gain its eventual independence - and for this you will always be admired and respected by the people of both nations.",
         "startIntroPart2": "Oh noble and pious queen, will you once again guide the kingdom of Portugal in the spirit of cooperation and prosperity? Will you establish a new legacy, one that will surpass all those who come before you? Can you build a civilization that will stand the test of time?",
         "declaringWar": "I'm afraid I cannot allow your kingdom to exist for much longer! I hope you won't mind...",
@@ -164,6 +170,7 @@
 		"adjective": ["Prussian"],
 		"personality": "Frederick William III",
 		"preferredVictoryType": "Domination",
+		"favoredReligion": "Protestantism",
 
 		"startIntroPart1": "King Frederick William III, ruler of Prussia and reformer of the army, your kingdom stands as Europe's rising sword.",
 		"startIntroPart2": "Can you transform defeat into destiny and lead Prusia to greatness?",
@@ -286,5 +293,47 @@
 	"spyNames": ["Topusana", "Tosahwi", "Tatanka", "Mahto", "Na-to-ko-he", "Tse-ko-to", "Wa-to-ka", "Tse-to-ho", "To-ka-ko", "Mo-ko-to"],
 	"cities": ["Quahadi", "Nokoni", "Yappari", "Penateka", "Kotsoteka", "Ishtakhaba", "Kwahare", "Nocona", "Parua", "Hutto", "Yamparika", "Nokoni", "Yuwipi", "Taidapet", "Tsaari", "Kotsoteka", "Ishtakhaba", "Kwahare", "Nocona", "Parua", "Hutto", "Yamparika", "Nokoni", "Yuwipi", "Taidapet", "Tsaari", "Kotsoteka", "Ishtakhaba", "Kwahare", "Nocona"],
 },
+{
+        "name": "The Buccaneers",
+        "leaderName": "Henry Morgan",
+        "adjective": ["Buccaneer"],
+        "startBias": ["Coast"],
+        "preferredVictoryType": "Diplomatic",
+		"favoredReligion": "Christianity",
+		
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+		
+        "declaringWar": "Ye might as well give up now, 'fore it gets worse!",
+        "attacked": "I'll send ye t' Davy Jones' Locker!",
+        "defeated": "Come on then, ye cowards! I'll take ye all meself!",
+        "introduction": "Ahoy, there! Name's Captain Henry Morgan. Be ye a great ally... or a foe worth crossin'?",
+		
+        "neutralHello": "Ahoy, matey!",
+        "hateHello": "What be yer purpose here, ye scurvy dog?",
+		
+        "tradeRequest": "Be smart now, matey. Take the deal.",
+		
+		"outerColor": [120, 60, 60],
+		"innerColor": [255, 255, 255],
+
+        "uniqueName": "No Prey, No Pay",
+        "uniques": [
+			"[+33]% Yield from pillaging tiles",
+			"Earn [25]% of the damage done to [City] units as [Gold]",
+			"Earn [50]% of killed [{Military} {Water}] unit's [Strength] as [Gold]",
+			"Earn [25]% of killed [{Military} {Land}] unit's [Strength] as [Gold]"
+		],
+        "cities": [
+            "Port Royal", "Tortuga", "Nassau", "Puerto Cabello", "Petit-Goave", 
+			"Leogane", "Campeche", "La Habana", "St. Kitts", "Nevis", 
+			"Florida Keys", "San Juan", "St. Eustatius", "Bridgetown", "Cartagena", 
+			"Portobello", "Kingston", "Curacao", "Maracaibo", "Port-au-Prince", 
+			"Belize", "Freeport", "Georgetown", "Cumana", "Ciudad del Carmen", 
+			"Nuevitas", "Cienfuegos", "Basse-Terre", "Fort-de-France", "Ciudad Guayana"
+		]
+		"spyNames": [
+		"François", "Michel", "Pierre", "Mansvelt", "Jean", "Bartholomew","Nicolas","Edmund","Coxon","Basil","Lionel"]
+    },
 	
 ]
