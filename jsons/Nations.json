@@ -319,7 +319,8 @@
 
         "uniqueName": "No Prey, No Pay",
         "uniques": [
-			"[+33]% Yield from pillaging tiles",
+			"Cannot build [Settler] units",
+	   		"[+33]% Yield from pillaging tiles",
 			"Earn [25]% of the damage done to [City] units as [Gold]",
 			"Earn [50]% of killed [{Military} {Water}] unit's [Strength] as [Gold]",
 			"Earn [25]% of killed [{Military} {Land}] unit's [Strength] as [Gold]"
