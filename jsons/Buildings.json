@@ -355,15 +355,23 @@
 	},
 	{
 		"name": "Public House",
+		"replaces": "University",
+		"uniqueTo": "The Buccaneers",
+		"cost": 80,
+		"culture": 2,
+		"happiness": 2,
+		"uniques": ["[+1 Happiness] per [3] population [in this city]"],
+		"requiredTech": "Currency"
+	},
+	{
+		"name": "Crew Boards",
 		"replaces": "Market",
 		"uniqueTo": "The Buccaneers",
 		"cost": 90,
 		"happiness": 2,
-		"gold": 1,
 		"hurryCostModifier": 25,
-		"uniques": [
-			"All newly-trained [Melee Water] units [in this city] receive the [Boarding Party I] promotion",
-			"[+25]% Production when constructing [Water] units [in this city]"
+		"uniques": ["All newly-trained [Melee Water] units [in this city] receive the [Boarding Party I] promotion",
+			    "[+25]% Production when constructing [Water] units [in this city]"
 		],
 		"requiredTech": "Currency"
 	},
@@ -373,12 +381,12 @@
 		"uniqueTo": "The Buccaneers",
 		"cost": 180,
 		"gold": 2,
+		"culture": 2,
 		"hurryCostModifier": 25,
 		"uniques": [
 			"All newly-trained [Melee Water] units [in this city] receive the [Boarding Party II] promotion",
-			"[+25]% Production when constructing [Water] units [in this city]"
-		],
-		"requiredTech": "Currency"
+			"[+25]% Production when constructing [Water] units [in this city]"],
+		"requiredTech": "Navigation"
 	},
 	{
 		"name": "The Satisfaction",
@@ -388,6 +396,15 @@
 		"gold": 6,
 		"cityStrength": 10,
 		"cost": 0,
-		"uniques": ["Indicates the capital city", "[+25]% Production when constructing [Water] units [in this city]"]
+		"uniques": ["Indicates the capital city", "[+25]% Production when constructing [Water] units [in this city]", "New [Water] units start with [15] XP [in all cities]"]
+	},
+	{
+		"name": "City Takeover",
+		"replaces": "Courthouse",
+		"uniqueTo": "The Buccaneers",
+		"gold": 5,
+		"cost": 25,
+		"uniques": ["Can only be built <in [Annexed] cities>", "Free [Pirate] appears", "Free [Pirate] appears",],
+		"requiredTech": "Compass"
 	},
 ]
