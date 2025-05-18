@@ -901,4 +901,18 @@
 		"hurryCostModifier": 20,
 		"attackSound": "shipCannonVolley"
 	},
+	{
+		"name": "Pirate",
+		"unitType": "Sword",
+		"replaces": "Pikeman",
+		"uniqueTo": "The Buccaneers",
+		"movement": 2,
+		"strength": 20,
+		"cost": 90,
+		"requiredTech": "Compass",
+		"uniques": ["[+25]% Strength <vs [Water] units>", "[-15]% Strength <vs [Land] units>", "[+3] Movement <in [Water] tiles>"],
+		"obsoleteTech": "Rifling",
+		"upgradesTo": "Rifleman",
+		"attackSound": "metalhit"
+	},
 ]
