@@ -186,7 +186,6 @@
 
 		"outerColor": [210,205,197],
 		"innerColor": [33,30,28],
-		"favoredReligion": "Christianity",
 		"uniqueName": "Army With a State",
 		"uniques": ["[+2 Production, +2 Science, +2 Happiness] <with a garrison>","[+25]% Production when constructing [{Military} {Land}] units [in all cities] <when at war>",
 			    "Earn [25]% of killed [Military] unit's [Strength] as [Science]", "Earn [25]% of killed [Military] unit's [Strength] as [Culture]"],
@@ -220,7 +219,6 @@
 
 		"outerColor": [249,249,249],
 		"innerColor": [0,79,206],
-		"favoredReligion": "Christianity",
 		"uniqueName": "Russian Giant",
 		"uniques": ["[-100]% unhappiness from the number of cities", "[+25]% Strength <for [Land] units> <when fighting in [Friendly Land] tiles>",
 			    "[-25]% Culture cost of natural border growth [in all cities]", "[-25]% Gold cost of acquiring tiles [in all cities]"],
@@ -254,7 +252,6 @@
         "outerColor": [54,72,72],
         "innerColor": [246,205,137],
 
-        "favoredReligion": "Christianity",
 		"uniqueName": "The United Tribes",
 		"uniques": ["Resting point for Influence with City-States is increased by [25]", "Militaristic City-States grant units [2] times as fast when you are at war with a common nation",
 		"Gain [10] Influence with a [Military] gift to a City-State", "Allied City-States provide [Production] equal to [+10]% of what they produce for themselves <in [capital] cities>", "Cannot build [Settler] units",	
@@ -271,6 +268,7 @@
 	"leaderName": "Hienacten",
 	"preferredVictoryType": "Domination",
 	"startBias": ["Plains"],
+	"personality": "Hienacten",
 	"favoredReligion": "Animism",
 
 	"declaringWar": "Hear the thunder of our war drums, foreign leader! The Lone Nation will not bow to your whims. Our arrows shall find your heart, and our horses will trample your ambitions. The wind of the plains carries our wrath!",
@@ -299,7 +297,7 @@
         "adjective": ["Buccaneer"],
         "startBias": ["Coast"],
         "preferredVictoryType": "Diplomatic",
-		"favoredReligion": "Christianity",
+	"favoredReligion": "Christianity",
 		
         "startIntroPart1": "",
         "startIntroPart2": "",
