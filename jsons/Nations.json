@@ -197,6 +197,7 @@
 		"startBias": ["Tundra"],
 		"personality": "Alexander I",
 		"preferredVictoryType": "Domination",
+		"favoredReligion": "Eastern Orthodox",
 
 		"startIntroPart1": "Tsar Alexander I, sovereign of the vast Russian Empire, your armies endure where others falter.",
 		"startIntroPart2": "Will you defend your realm or strike at the heart of Europe?",
@@ -230,6 +231,7 @@
 		"startBias": ["Plains"],
 		"preferredVictoryType": "Diplomatic",
 		"personality": "Ramkhamhaeng",
+		"favoredReligion": "Shamanism",
 
         "startIntroPart1": "Greetings, noble Hiawatha, leader of the mighty Federation of nations! Your people lived near the great and holy lake Ontario since the ancient ages, on a land that will be later known as New York city. Long ago, the five peoples of Seneca, Onondaga, Mohawks, Cayugas and Oneida became one nation, the Haudenosaunee, the Iroquois. Although not having a written language, the wise Iroquois created the Great Law of Peace, which can be considered the first established constitution. For decades, your people fought powerful enemies, such as the Huron, and then the French and English colonists. With less warriors and inferior weaponry, the Iroquois still survived and walk on the path of peace and harmony, until their way of living faded away under the crush of the newborn United States nation.",
         "startIntroPart2": "Great Sachem Hiawatha, do you hear the complaints of your people? Can you light the path leading to the ancient Iroquois union? Will your new empire shine through the ages of history?",
@@ -262,7 +264,7 @@
 	"leaderName": "Hienacten",
 	"preferredVictoryType": "Domination",
 	"startBias": ["Plains"],
-	"favoredReligion": "Christianity",
+	"favoredReligion": "Animism",
 
 	"declaringWar": "Hear the thunder of our war drums, foreign leader! The Lone Nation will not bow to your whims. Our arrows shall find your heart, and our horses will trample your ambitions. The wind of the plains carries our wrath!",
 	"attacked": "You dare to challenge the Comanche? Your arrows are but whispers in the storm. We shall rise like the sun, and your darkness shall be vanquished.",
