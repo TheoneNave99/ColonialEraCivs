@@ -174,6 +174,35 @@
     }
     }
     {
+    "name": "Hienacten",
+    "production": 5,
+    "food": 5,
+    "gold": 5,
+    "science": 1,
+    "culture": 7,
+    "happiness": 9,
+    "faith": 7,
+    "military": 8,
+    "aggressive": 7,
+    "declareWar": 7,
+    "commerce": 1,
+    "diplomacy": 1,
+    "loyal": 9,
+    "expansion": 3,
+    "priorities": {
+      "Tradition": 5,
+      "Liberty": 1,
+      "Honor": 9,
+      "Commerce": 1,
+      "Patronage": 5,
+      "Piety": 7,
+      "Rationalism": 1,
+      "Freedom": 3,
+      "Autocracy": 8,
+      "Order": 5
+    }
+    }
+    {
     "name": "Henry Morgan",
     "production": 6,
     "food": 5,
