@@ -64,6 +64,7 @@
 		"name": "Early Stock Trader",
 		"uniqueTo": "Dutch Empire",
 		"gold": 2,
+		"specialistSlots": {"Merchant": 3},
 		"percentStatBonus": {"gold": 10},
 		"cost": 200,
 		"uniques": ["[+1 Gold] per [4] population [in this city]"]
