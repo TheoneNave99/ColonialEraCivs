@@ -90,8 +90,8 @@
 		"outerColor": [216, 120, 0],
 		"innerColor": [255, 255, 255],
 		"uniqueName": "Dutch East India Company",
-		"uniques": ["Allied City-States provide [Gold] equal to [+50]% of what they produce for themselves <in [capital] cities>",
-			    "[+1 Food, +1 Gold] from [Coast] tiles [in all cities]", "[Great Merchant] is earned [50]% faster"],
+		"uniques": ["Allied City-States provide [Gold] equal to [+100]% of what they produce for themselves <in [capital] cities>",
+			    "[+1 Food, +1 Gold] from [Coast] tiles [in all cities]", "[Great Merchant] is earned [75]% faster", "Starts with [Commerce] adopted"],
 		"cities": ["Amsterdam", "Rotterdam", "Utrecht", "Groningen", "Breda", "Nijmegen", "The Hague", "Haarlem", "Arnhem", "Zutphen", "Maastricht", "Tilburg", "Eindhoven", "Dordrecht", "Leiden", "'s Hertogenbosch", "Almere", "Alkmaar", "Brielle", "Vlissingen", "Apeldoorn", "Enschede", "Amersfoort", "Zwolle", "Venlo", "Uden", "Grave", "Delft", "Gouda", "Nieuwstadt", "Weesp", "Coevorden", "Kerkrade"],
         "spyNames": ["Joost", "Hendrika", "Marten", "Anke", "Guus", "Mr. X", "Dr. Grijs", "Willem", "Thijs", "Neef"]
     },
