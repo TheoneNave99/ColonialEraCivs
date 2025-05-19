@@ -55,7 +55,7 @@
 		"replaces": "Market",
 		"uniqueTo": "Dutch Empire",
 		"gold": 2,
-		"specialistSlots": {"Merchant": 1},
+		"greatPersonPoints": {"Great Merchant": 1},
 		"percentStatBonus": {"gold": 35},
 		"cost": 50,
 		"requiredTech": "Currency"
@@ -64,10 +64,10 @@
 		"name": "Early Stock Trader",
 		"uniqueTo": "Dutch Empire",
 		"gold": 2,
-		"specialistSlots": {"Merchant": 3},
-		"percentStatBonus": {"gold": 10},
-		"cost": 200,
-		"uniques": ["[+1 Gold] per [4] population [in this city]"]
+		"greatPersonPoints": {"Great Merchant": 1},
+		"specialistSlots": {"Merchant": 2},
+		"cost": 150,
+		"uniques": ["[+1 Gold] per [4] population [in this city]", "[+5]% [Gold] [in all cities]"]
 		"requiredTech": "Banking"
 	},
 	{
@@ -104,6 +104,7 @@
 		"happiness": 1,
 		"maintenance": 3,
 		"percentStatBonus": {"food": 10},
+		"greatPersonPoints": {"Great Engineer": 1},
 		"cost": 400,
 		"uniques": ["Must be next to [Coast]", "[+1 Food] per [5] population [in this city]"]
 		"requiredBuilding": "Land Reclaimation II",
