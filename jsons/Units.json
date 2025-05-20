@@ -16,16 +16,29 @@
 		"obsoleteTech": "Industrialization",
 		"attackSound": "arrow"
 	},
-{
-		"name": "Redcoat",
+	   {
+		"name": "British Line Infantry",
 		"unitType": "Gunpowder",
 	   	"replaces": "Rifleman",
 		"uniqueTo": "Great Britain",
 		"movement": 2,
-		"strength": 33,
-		"cost": 200,
+		"strength": 29,
+		"cost": 175,
 		"requiredTech": "Rifling",
-	        "uniques": ["[+20]% Strength <when fighting in [Foreign Land] tiles>","[1] Movement point cost to disembark"],
+                "obsoleteTech": "Replaceable Parts", 
+		"upgradesTo": "Great War Infantry",
+		"attackSound": "shot"
+   },
+{
+		"name": "Redcoat",
+		"unitType": "Gunpowder",
+		"uniqueTo": "Great Britain",
+		"movement": 2,
+		"strength": 30,
+		"cost": 300,
+		"requiredTech": "Rifling",
+	        "uniques": ["[+25]% Strength <when fighting in [Foreign Land] tiles>", "[+2] Movement <in [Foreign Land] tiles>",
+			    "[1] Movement point cost to disembark"],
                 "obsoleteTech": "Replaceable Parts", 
 		"upgradesTo": "Great War Infantry",
 		"attackSound": "shot"
@@ -35,7 +48,7 @@
 		"unitType": "Gunpowder",
 	        "uniqueTo": "Great Britain",
 		"movement": 4,
-		"strength": 27,
+		"strength": 26,
 		"cost": 150,
 	        "promotions": ["Ignore terrain cost", "Drill I"],
 		"requiredTech": "Rifling",
@@ -104,7 +117,7 @@
 		"attackSound": "shot"
    },
    {
-		"name": "Line Infantry",
+		"name": "French Line Infantry",
 		"unitType": "Gunpowder",
 	   	"replaces": "Rifleman",
 		"uniqueTo": "French Empire",
@@ -144,7 +157,7 @@
 		"upgradesTo": "Landship",
 		"obsoleteTech": "Combustion",
 		"promotions": ["Sentry"],
-		"uniques": ["Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit", "[+20]% Strength bonus for [Military] units within [3] tiles",
+		"uniques": ["Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit", "[+20]% Strength bonus for [Military] units within [4] tiles",
 			    "All adjacent units heal [+15] HP when healing", "[+15] HP when healing", "Can instantly construct a [Citadel] improvement <by consuming this unit>"],
 		"attackSound": "horse"
 	},
@@ -164,15 +177,15 @@
 		"uniques": ["[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus","Must set up to ranged attack","[-1] Sight","Never appears as a Barbarian unit"],
 		"attackSound": "cannon"
 	},
-{
+	{
 		"name": "Dutch Entrepenuer",
 		"unitType": "Civilian",
 		"replaces": "Settler",
 		"uniqueTo": "Dutch Empire",
 		"movement": 3,
 		"cost": 350,
-		"uniques": ["Founds a new city <by consuming this unit>","Can instantly construct a [Customs house] improvement <by consuming this unit>",
-			    "Can instantly construct a [Manufactory] improvement <by consuming this unit>", "Cannot be purchased",
+		"uniques": ["Founds a new city <by consuming this unit>","Can instantly construct a [Customs house] improvement <[2] times> <after which this unit is consumed>",
+			    "Can instantly construct a [Manufactory] improvement <by consuming this unit>", "Can instantly construct a [Academy] improvement <by consuming this unit>", "Cannot be purchased",
 			    "Can undertake a trade mission with City-State, giving a large sum of gold and [50] Influence"],
 		"hurryCostModifier": 20
 	},
@@ -341,7 +354,7 @@
 		"cost": 100,
 		"requiredTech": "Compass",
 		"uniques": ["[+1] Sight"],
-		"promotions": ["Ignore terrain cost","Drill I", "Drill II"],
+		"promotions": ["Ignore terrain cost","Drill I"],
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -354,19 +367,6 @@
 		"requiredTech": "Astronomy",
 		"uniques": ["[+1] Sight", "Can move after attacking"],
 		"promotions": ["Ignore terrain cost", "Scouting I"],
-		"attackSound": "nonmetalhit"
-	},
-	{
-		"name": "Heavy Explorador",
-		"unitType": "Sword",
-		"replaces": "Longswordsman",
-		"uniqueTo": "Portuguese Empire",
-		"movement": 3,
-		"strength": 22,
-		"cost": 200,
-		"requiredTech": "Astronomy",
-		"uniques": ["[+1] Sight", "[+50]% Strength <when defending>"],
-		"promotions": ["Ignore terrain cost","Drill I"],
 		"attackSound": "nonmetalhit"
 	},
 	{
