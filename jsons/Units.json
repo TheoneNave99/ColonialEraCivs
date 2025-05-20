@@ -39,8 +39,7 @@
 		"requiredTech": "Rifling",
 	        "uniques": ["[+25]% Strength <when fighting in [Foreign Land] tiles>", "[+2] Movement <in [Foreign Land] tiles>",
 			    "[1] Movement point cost to disembark"],
-                "obsoleteTech": "Replaceable Parts", 
-		"upgradesTo": "Great War Infantry",
+                "obsoleteTech": "Replaceable Parts",
 		"attackSound": "shot"
    },
    {
@@ -52,8 +51,7 @@
 		"cost": 150,
 	        "promotions": ["Ignore terrain cost", "Drill I"],
 		"requiredTech": "Rifling",
-                "obsoleteTech": "Replaceable Parts", 
-		"upgradesTo": "Great War Infantry",
+                "obsoleteTech": "Replaceable Parts",
 		"attackSound": "shot"
    },
 	{
@@ -99,7 +97,6 @@
 		"promotions": ["Shock I", "Drill I"],
 		"requiredTech": "Rifling",
                 "obsoleteTech": "Replaceable Parts", 
-		"upgradesTo": "Great War Infantry",
 		"attackSound": "shot"
    },
    {
@@ -112,8 +109,7 @@
 		"uniques": ["[+1] Sight"]
 		"promotions": ["Ignore terrain cost", "Drill I"],
 		"requiredTech": "Rifling",
-                "obsoleteTech": "Replaceable Parts", 
-		"upgradesTo": "Great War Infantry",
+                "obsoleteTech": "Replaceable Parts",
 		"attackSound": "shot"
    },
    {
@@ -183,10 +179,10 @@
 		"replaces": "Settler",
 		"uniqueTo": "Dutch Empire",
 		"movement": 3,
-		"cost": 350,
-		"uniques": ["Founds a new city <by consuming this unit>","Can instantly construct a [Customs house] improvement <[2] times> <after which this unit is consumed>",
-			    "Can instantly construct a [Manufactory] improvement <by consuming this unit>", "Can instantly construct a [Academy] improvement <by consuming this unit>", "Cannot be purchased",
-			    "Can undertake a trade mission with City-State, giving a large sum of gold and [50] Influence"],
+		"cost": 300,
+		"uniques": ["Founds a new city <by consuming this unit>","Can instantly construct a [Customs house] improvement <after which this unit is consumed>",
+			    "Can instantly construct a [Manufactory] improvement <by consuming this unit>", "Cannot be purchased",
+			    ],
 		"hurryCostModifier": 20
 	},
 	{
@@ -462,8 +458,7 @@
 		"uniques": ["[+1] Sight"]
 		"promotions": ["Ignore terrain cost"],
 		"requiredTech": "Rifling",
-                "obsoleteTech": "Replaceable Parts", 
-		"upgradesTo": "Great War Infantry",
+                "obsoleteTech": "Replaceable Parts",
 		"attackSound": "shot"
    },
 	{
