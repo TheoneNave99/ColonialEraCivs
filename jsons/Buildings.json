@@ -179,12 +179,24 @@
 	},
 	{
 		"name": "Regimental Camp",
-		"cost": 75,
+		"cost": 200,
 		"maintenance": 1,
 		"requiredBuilding": "Barracks",
-		"uniques": ["All newly-trained [relevant] units [in this city] receive the [Drill I] promotion", "All newly-trained [relevant] units [in this city] receive the [Shock I] promotion",
+		"uniques": ["All newly-trained [relevant] units [in this city] receive the [Drill I] promotion", "All newly-trained [relevant] units [in this city] receive the [Shock II] promotion",
 			     "[+15]% Production when constructing [Gunpowder] units [in this city]", "Destroyed when the city is captured"],
 		"requiredTech": "Military Science"
+	{
+		"name": "Rural Markets",
+		"replaces": "Market",
+		"uniqueTo": "Prussia",
+		"gold": 1,
+		"food": 1,
+		"production": 1,
+		"cost": 40,
+		"percentStatBonus": {"gold": 5},
+		"percentStatBonus": {"food": 10},
+		"requiredTech": "Currency"
+	},
 	},
 	{
 		"name": "Siberian Expansion",
